@@ -201,8 +201,12 @@ flex-direction: column;
 border: 1px solid orange;
 }
 
-.new2 .first-new2 .detail{
+.new2 {
   width: 40%;
+}
+
+.new {
+  width: 60%;
 }
 
  .detail{
@@ -214,10 +218,10 @@ border: 1px solid blue;
 }
 
 
- .first-new2 .desktopi img {
+.detail img {
   width: 35%;
   padding: 16px;
-  margin: 16px;
+
 }
 
 h5{
