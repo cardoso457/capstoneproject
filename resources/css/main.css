@@ -26,7 +26,7 @@ h1{
 
 .container{
   margin: 0 auto;
-  max-width: 1000px;
+
 }
 
 
@@ -99,14 +99,11 @@ strong{
 /*Main 1 - Learn Section*/
 
 .main1 .container{
-
   display: flex;
   justify-content: space-between;
   background-color: #f3f5f5;
   /*border: 1px solid red;*/
 }
-
-
 
 .img{
   margin: 32px 24px;
@@ -192,9 +189,9 @@ border: 1px solid green;
   color: gray;
   font-weight: 200;
 }
+/*main 2 new2*/
 
-.main2 .new2{
-
+.new2{
 border-left: 1px solid #DCDCDC;
 padding: 16px 0px 32px 0px;
 display: flex;
@@ -204,8 +201,8 @@ flex-direction: column;
 border: 1px solid orange;
 }
 
-.first-new2{
-  width: 450px;
+.new2 .first-new2 .detail{
+  width: 40%;
 }
 
  .detail{
