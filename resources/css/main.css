@@ -1,0 +1,249 @@
+/* "Tamming" Box Model With Reset */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Universal Styles */
+
+html{
+  font-size: 18px;
+}
+
+body{
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+h1{
+  font-weight: bold;
+
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+
+/*Header Section*/
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  /*border: 1px solid yellow;*/
+}
+
+.logo{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*border: 1px solid black;*/
+}
+
+
+.logo img{
+
+  padding-left: 24px;
+  margin-top: 5px;
+  width: 80px;
+}
+
+ span{
+  font-weight: 100;
+  color: grey;
+  font-size: 22px;
+}
+
+
+strong{
+  color: black;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+/*navbar*/
+
+.mobile{
+  display: none;
+}
+
+.desktop{
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 5px;
+  margin-right: 24px;
+  /*margin-right: 24px;*/
+}
+
+ .desktop a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #383838;
+  margin-left: 16px;
+}
+
+.desktop a:hover{
+  color: #87CEFA;
+}
+
+/*Main 1 - Learn Section*/
+
+.main1 .container{
+
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f5f5;
+  /*border: 1px solid red;*/
+}
+
+
+
+.img{
+  margin: 32px 24px;
+  width: 60%;
+  /*border: 1px solid orange;*/
+}
+
+.img img{
+width: 100%;
+}
+
+.learn{
+width:40%;
+/*border: 1px solid green;*/
+}
+
+.learn-content{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+height: auto;
+padding-left: 20px;
+margin-right: 20px;
+margin-top: 6.5rem;
+/*border: 1px solid green;*/
+}
+
+.learn-content h3{
+  font-weight: 500;
+  color: #383838;
+}
+
+.learn-content h1{
+  color: #383838;
+}
+
+.learn-content a{
+  text-decoration: none;
+  background-color: #383838;
+  color: white;
+  padding: 8px 0;
+  text-align: center;
+  margin-right: 24px;
+}
+
+.learn-content a:hover{
+  background-color: #87CEFA;
+}
+
+/*Main 2 - News Section*/
+
+.main2 .container{
+  width: 100%;
+  padding: 32px 24px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.new img{
+  width: 60%;
+border: 1px solid green;
+}
+
+
+.new h1{
+  color: #383838;
+  width: 60%;
+  font-weight: 700;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.new p{
+  width: 60%;
+  line-height: 1.2rem;
+  color: gray;
+}
+
+.new spam{
+  width: 60%;
+  line-height: 1.2rem;
+  color: gray;
+  font-weight: 200;
+}
+
+.main2 .new2{
+
+border-left: 1px solid #DCDCDC;
+padding: 16px 0px 32px 0px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+border: 1px solid orange;
+}
+
+.first-new2{
+  width: 450px;
+}
+
+ .detail{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 1px solid blue;
+}
+
+
+ .detail img {
+  width: 100%;
+  padding: 16px;
+  margin: 16px;
+}
+
+h5{
+font-size: 20px;
+font-weight: 600;
+color: black;
+}
+
+.new2-content p {
+    padding-top: 8px;
+}
+
+p{
+font-weight: 400;
+font-size: .85rem;
+line-height: 1.1rem;
+color: gray;
+}
+
+.new2-content a{
+  color: #87CEFA;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding-top: 18px;
+}
