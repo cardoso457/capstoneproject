@@ -164,6 +164,7 @@ margin-top: 6.5rem;
 }
 .new {
   width: 60%;
+
 }
 
 .new img{
@@ -212,18 +213,20 @@ margin: 0 auto;
   margin-bottom: 32px;
 }
 
-.darc img{
+.darc {
   width: 35%;
 
 }
 
-.second-new2 img{
-  width: 35%;
+ .darc img{
+  width: 100%;
 }
 
 .third-new2 img{
   width: 35%;
-
+}
+.first-new2, .second-new2{
+  border-bottom: 1px solid #f3f5f5;
 }
 
 .third-new2 {
@@ -276,8 +279,4 @@ color: gray;
   font-size: 16px;
   display: block;
   padding-top: 18px;
-}
-
-.new2-content{
-  margin: 16px;
 }
