@@ -164,7 +164,7 @@ margin-top: 6.5rem;
 }
 
 .new img{
-  width: 60%;
+  width: 100%;
 border: 1px solid green;
 }
 
@@ -220,6 +220,12 @@ border: 1px solid blue;
 
 .detail img {
   width: 35%;
+  padding: 16px;
+  height: auto;
+}
+
+.new2-content{
+  width: 65%;
   padding: 16px;
 
 }
