@@ -201,17 +201,20 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 flex-direction: column;
-border: 1px solid orange;
+margin: 0 auto;
+
 }
 
 .new2 {
   width: 40%;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 32px;
 }
 
-.first-new2 img{
+.darc img{
   width: 35%;
+
 }
 
 .second-new2 img{
@@ -233,7 +236,7 @@ width: 100%;
 display: flex;
 justify-content: space-between;
 align-items: center;
-border: 1px solid blue;
+/*border: 1px solid blue;*/
 }
 
 
@@ -255,8 +258,8 @@ font-weight: 600;
 color: black;
 }
 
-.new2-content p, h5 {
-    line-height: 10px;
+ p, h5 {
+    padding-top: 8px;
 
 }
 
@@ -273,4 +276,8 @@ color: gray;
   font-size: 16px;
   display: block;
   padding-top: 18px;
+}
+
+.new2-content{
+  margin: 16px;
 }
