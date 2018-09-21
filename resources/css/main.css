@@ -220,6 +220,12 @@ border: 1px solid orange;
 
 .third-new2 img{
   width: 35%;
+
+}
+
+.third-new2 {
+background-color: #f3f5f5;
+
 }
 
  .detail{
@@ -240,6 +246,7 @@ border: 1px solid blue;
 .new2-content{
   width: 65%;
   padding: 16px;
+
 }
 
 h5{
@@ -248,13 +255,14 @@ font-weight: 600;
 color: black;
 }
 
-.new2-content p {
-    padding-top: 8px;
+.new2-content p, h5 {
+    line-height: 10px;
+
 }
 
 p{
 font-weight: 400;
-font-size: .85rem;
+font-size: 0.8rem;
 line-height: 1.1rem;
 color: gray;
 }
