@@ -161,7 +161,7 @@ margin-top: 6.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 .new {
   width: 60%;
@@ -330,6 +330,7 @@ padding-bottom: 32px;
 
 .course-content {
   padding: 16px 16px 24px 16px;
+  border-left: 1px solid #f3f5f5;
 
 }
 
