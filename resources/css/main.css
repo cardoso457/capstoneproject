@@ -107,7 +107,6 @@ strong{
 
 .img{
   margin: 32px 24px;
-  padding-left: 24px;
   width: 60%;
   /*border: 1px solid orange;*/
 }
@@ -158,8 +157,9 @@ margin-top: 6.5rem;
 
 .main2 .container{
   width: 100%;
-  padding: 32px 24px;
+  padding: 32px  24px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   border: 1px solid red;
 }
@@ -197,15 +197,14 @@ margin-top: 6.5rem;
 /*main 2 new2*/
 
 .new2{
-width: 40%;
+width: 38%;
 border-left: 1px solid #DCDCDC;
-/*padding: 16px 0px 32px 0px;*/
+padding: 16px 0px 32px 0px;
 display: flex;
 justify-content: flex-start;
 align-items: center;
 flex-direction: column;
 flex-wrap: wrap;
-border: 1px solid green;
 }
 
 .first-new2 {
@@ -275,4 +274,84 @@ color: gray;
   font-size: 16px;
   display: block;
   padding-top: 18px;
+}
+
+/*Main 3 - Learning*/
+
+.courses-mobile{
+  display: none;
+}
+
+.learning{
+  background-color: #f3f5f5;
+}
+
+.learning .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headline{
+  width: 100%;
+text-align: center;
+margin: auto;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.headline h1{
+  color: #383838;
+  font-weight: bold;
+}
+
+.courses-desktop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.course{
+ background-color: white;
+ width: 32%;
+ height: 26rem;
+ margin-bottom: 20px;
+ display: block;
+}
+
+.course-img img {
+  width: 100%;
+  height: auto;
+}
+
+.course-content {
+  padding: 16px 16px 24px 16px;
+
+}
+
+.course h6 {
+  padding-bottom: 0.1rem;
+  font-size: 22px;
+  color: #383838;
+  font-weight: 500;
+}
+
+
+.course span{
+  font-size: 18px;
+  color: gray;
+  line-height: .95rem;
+}
+
+.course p{
+ padding-top: .55rem;
+ font-weight: 400;
+ font-size: .8rem;
+ line-height: 0.9rem;
+  color: gray;
+
 }
