@@ -243,9 +243,9 @@ align-items: center;
 }
 
 .new2-content{
-  padding: 16px 1px 32px 0px;
-  width: 65%;
-  line-height: 5px;
+padding: 16px 1px 32px 0px;
+width: 65%;
+line-height: 5px;
 }
 
 h5{
@@ -291,7 +291,7 @@ color: gray;
 }
 
 .headline{
-  width: 100%;
+width: 100%;
 text-align: center;
 margin: auto;
 padding-top: 32px;
@@ -413,8 +413,12 @@ padding-bottom: 32px;
 }
 
 .first-info .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 65%;
-  line-height: 0.5;
+  line-height: 1.1;
   padding: 0 16px;
 }
 
@@ -438,8 +442,12 @@ padding-bottom: 32px;
 
 .info .content{
   width: 65%;
-  line-height: 0.5;
+  line-height: 1.1;
   padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .info .content h6{
@@ -448,4 +456,31 @@ padding-bottom: 32px;
 
 .info .content p{
   font-size: 18px;
+}
+
+/*Footer Section*/
+
+.footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-top: 1px solid #87CEFA;
+margin-top: 16px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: gray;
+  font-size: 16px;
+  align-items: center;
+}
+
+.nav a{
+  position: relative;
+  top: 16px;
+  right:8px;
+}
+
+.nav a:hover{
+  color: #87CEFA;
 }
