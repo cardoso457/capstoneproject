@@ -25,16 +25,15 @@ h1{
 
 .container{
   margin: 0 auto;
-
 }
+
 @media only screen and (max-width: 700px){
 
   .container{
     margin: 0 auto;
     width: 100%;
   }
-
-  }
+    }
 
 
 /*Header Section*/
@@ -44,21 +43,17 @@ header .container{
   justify-content: space-between;
   align-items: center;
   height: 64px;
-  /*border: 1px solid yellow;*/
 }
 
 .logo{
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /*border: 1px solid black;*/
 }
 
 
 .logo img{
-
   padding-left: 24px;
   margin-top: 5px;
   width: 80px;
@@ -105,6 +100,7 @@ strong{
 }
 
 @media only screen and (max-width: 700px){
+
   header{
     height: 64px;
   }
@@ -136,7 +132,7 @@ span{
   display: none;
 }
 
-}
+  }
 
 /*Main 1 - Learn Section*/
 
@@ -149,27 +145,24 @@ span{
 .img{
   margin: 32px 24px;
   width: 60%;
-  /*border: 1px solid orange;*/
 }
 
 .img img{
-width: 100%;
+  width: 100%;
 }
 
 .learn{
-width:40%;
-/*border: 1px solid green;*/
+  width:40%;
 }
 
 .learn-content{
-display: flex;
-justify-content: space-between;
-flex-direction: column;
-height: auto;
-padding-left: 20px;
-margin-right: 20px;
-margin-top: 6.5rem;
-/*border: 1px solid green;*/
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: auto;
+  padding-left: 20px;
+  margin-right: 20px;
+  margin-top: 6.5rem;
 }
 
 .learn-content h3{
@@ -195,6 +188,7 @@ margin-top: 6.5rem;
 }
 
 @media only screen and (max-width: 700px){
+
   .main1 .container{
     display: flex;
     flex-direction: column;
@@ -211,6 +205,7 @@ margin-top: 6.5rem;
     width: 100%;
     margin: 0;
   }
+
   .img img{
     width: 100%;
   }
@@ -220,11 +215,11 @@ margin-top: 6.5rem;
   }
 
   .learn-content{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: auto;
-  margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 32px;
 }
 
   .learn-content h1{
@@ -241,9 +236,9 @@ margin-top: 6.5rem;
     color: white;
     text-align: center;
     width: 100%;
-
   }
 }
+
 /*Main 2 - News Section*/
 
 .main2 .container{
@@ -252,16 +247,14 @@ margin-top: 6.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*border: 1px solid red;*/
 }
+
 .new {
   width: 60%;
-
 }
 
 .new img{
   width: 100%;
-/*border: 1px solid green;*/
 }
 
 
@@ -279,23 +272,24 @@ margin-top: 6.5rem;
   color: gray;
 }
 
-.new spam{
+.new span{
   width: 60%;
   line-height: 1.2rem;
   color: gray;
   font-weight: 200;
 }
+
 /*main 2 new2*/
 
 .new2{
-width: 38%;
-border-left: 1px solid #DCDCDC;
-padding: 16px 0px 32px 0px;
-display: flex;
-justify-content: flex-start;
-align-items: center;
-flex-direction: column;
-flex-wrap: wrap;
+  width: 38%;
+  border-left: 1px solid #DCDCDC;
+  padding: 16px 0px 32px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .first-new2 {
@@ -307,7 +301,7 @@ flex-wrap: wrap;
 }
 
 .third-new2 {
-background-color: #f3f5f5;
+  background-color: #f3f5f5;
 
 }
 
@@ -317,11 +311,10 @@ background-color: #f3f5f5;
 }
 
  .detail{
-width: 100%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-/*border: 1px solid blue;*/
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -332,31 +325,30 @@ align-items: center;
 }
 
 .darc img{
- width: 100%;
+   width: 100%;
 }
 
 .new2-content{
-padding: 16px 1px 32px 0px;
-width: 65%;
-line-height: 5px;
+  padding: 16px 1px 32px 0px;
+  width: 65%;
+  line-height: 5px;
 }
 
 h5{
-font-size: 20px;
-font-weight: 600;
-color: black;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
 }
 
- p, h5 {
-padding-top: 8px;
-
+ h6, h5{
+  padding-top: 8px;
 }
 
-p{
-font-weight: 400;
-font-size: 0.8rem;
-line-height: 1.1rem;
-color: gray;
+h6{
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  color: gray;
 }
 
 .new2-content a{
@@ -368,9 +360,9 @@ color: gray;
 }
 
 @media only screen and (max-width: 700px){
+
 .main2 .new2{
   width: 100%;
-
 }
 
 .new{
@@ -404,11 +396,11 @@ color: gray;
 }
 
 .detail{
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .detail img{
@@ -418,8 +410,8 @@ align-items: center;
 }
 
 .new2-content {
-padding: 16px 1px 32px 0px;
-width: 100%;
+  padding: 16px 1px 32px 0px;
+  width: 100%;
 }
 
 .first-new2, .second-new2{
@@ -431,13 +423,7 @@ width: 100%;
   background-color: white;
 }
 
-p{
-font-weight: 400;
-font-size: 0.8rem;
-line-height: 1.1rem;
-color: gray;
-}
-}
+  }
 
 
 /*Main 3 - Learning*/
@@ -457,11 +443,11 @@ color: gray;
 }
 
 .headline{
-width: 100%;
-text-align: center;
-margin: auto;
-padding-top: 32px;
-padding-bottom: 32px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .headline h1{
@@ -480,11 +466,11 @@ padding-bottom: 32px;
 }
 
 .course{
- background-color: white;
- width: 32%;
- height: 26rem;
- margin-bottom: 20px;
- display: block;
+   background-color: white;
+   width: 32%;
+   height: 26rem;
+   margin-bottom: 20px;
+   display: block;
 }
 
 .course-img img {
@@ -495,7 +481,6 @@ padding-bottom: 32px;
 .course-content {
   padding: 16px 16px 24px 16px;
   border-left: 1px solid #f3f5f5;
-
 }
 
 .course h6 {
@@ -513,11 +498,11 @@ padding-bottom: 32px;
 }
 
 .course p{
- padding-top: .55rem;
- font-weight: 400;
- font-size: .8rem;
- line-height: 0.9rem;
-  color: gray;
+   padding-top: .55rem;
+   font-weight: 400;
+   font-size: .8rem;
+   line-height: 0.9rem;
+    color: gray;
 }
 
 
@@ -542,7 +527,7 @@ padding-bottom: 32px;
 }
 
 .courses-mobile a{
-  background-color: #DCDCDC;
+    background-color: #DCDCDC;
     color: #383838;
     text-decoration: none;
     padding: 16px;
@@ -700,11 +685,11 @@ padding-bottom: 32px;
 /*Footer Section*/
 
 .footer{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-border-top: 1px solid #87CEFA;
-margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #87CEFA;
+  margin-top: 16px;
 }
 
 .footer a{
@@ -725,14 +710,15 @@ margin-top: 16px;
 }
 
 @media only screen and (max-width: 700px){
+
   .nav{
     display: none;
   }
 
   .footer{
-  border-top: 1px solid #87CEFA;
-  margin-top: 16px;
-  margin-bottom: 16px;
+    border-top: 1px solid #87CEFA;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 
   .footer p{
