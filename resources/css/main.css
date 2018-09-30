@@ -325,10 +325,6 @@ span{
   height: auto;
 }
 
-.darc img{
-   width: 100%;
-}
-
 .new2-content{
   padding: 16px 1px 32px 0px;
   width: 65%;
@@ -677,7 +673,6 @@ h6{
   width: 100%;
   display: flex;
   justify-content: center;
-  /*border: 1px solid red;*/
   margin: 0;
 }
 
