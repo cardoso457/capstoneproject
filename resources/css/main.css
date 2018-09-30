@@ -128,7 +128,7 @@ strong{
   }
 
 .mobile img{
-  padding-left: 4rem;
+  padding-left: 3rem;
   margin-left: 15px;
 }
 
@@ -411,25 +411,32 @@ justify-content: space-between;
 align-items: center;
 }
 
-.detail img {
+.detail img{
   width: 100%;
   padding: 16px;
   height: auto;
 }
 
-.new2-content{
+.new2-content {
 padding: 16px 1px 32px 0px;
 width: 100%;
 }
 
 .first-new2, .second-new2{
   border: none;
+  margin-left: 35px;
 }
 
 .third-new2{
   background-color: white;
 }
 
+p{
+font-weight: 400;
+font-size: 0.8rem;
+line-height: 1.1rem;
+color: gray;
+}
 }
 
 
@@ -677,14 +684,16 @@ padding-bottom: 32px;
 .thesis {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  border: 1px solid red;
+  justify-content: center;
+  /*border: 1px solid red;*/
   margin: 0;
 }
 
 
 .thesis-left {
   width: 100%;
+  position: relative;
+  bottom: 30px;
 }
   }
 
