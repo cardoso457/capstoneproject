@@ -236,6 +236,7 @@ span{
     color: white;
     text-align: center;
     width: 100%;
+    margin-bottom: 32px;
   }
 }
 
@@ -582,10 +583,12 @@ h6{
 .thesis-left h6 {
   padding-top: 24px;
   font-size: 22px;
+  padding: 0px 24px;
 }
 
 .thesis-left p {
   font-size: 16px;
+  padding: 0px 24px;
 }
 
 
@@ -655,7 +658,8 @@ h6{
     width: 100%;
     text-align: center;
     margin: 0;
-
+    padding-top: 32px;
+    padding-bottom: 16px;
   }
 
 
@@ -718,13 +722,17 @@ h6{
 
   .footer{
     border-top: 1px solid #87CEFA;
-    margin-top: 16px;
-    margin-bottom: 16px;
+
   }
 
   .footer p{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
+    color: gray;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 32px;
   }
 }
