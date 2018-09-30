@@ -27,6 +27,14 @@ h1{
   margin: 0 auto;
 
 }
+@media only screen and (max-width: 700px){
+
+  .container{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  }
 
 
 /*Header Section*/
@@ -42,6 +50,7 @@ header .container{
 .logo{
 
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   /*border: 1px solid black;*/
@@ -81,7 +90,7 @@ strong{
   align-items: flex-end;
   margin-top: 5px;
   margin-right: 24px;
-  /*margin-right: 24px;*/
+
 }
 
  .desktop a{
@@ -93,6 +102,40 @@ strong{
 
 .desktop a:hover{
   color: #87CEFA;
+}
+
+@media only screen and (max-width: 700px){
+  header{
+    height: 64px;
+  }
+
+
+  .logo img{
+    width: 50px;
+    padding-left: 12px;
+  }
+
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 15px;
+  }
+
+.mobile img{
+  padding-left: 4rem;
+  margin-left: 15px;
+}
+
+span{
+  display: none;
+}
+
 }
 
 /*Main 1 - Learn Section*/
@@ -151,6 +194,56 @@ margin-top: 6.5rem;
   background-color: #87CEFA;
 }
 
+@media only screen and (max-width: 700px){
+  .main1 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f5f5;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .img{
+    width: 100%;
+    margin: 0;
+  }
+  .img img{
+    width: 100%;
+  }
+
+  .learn{
+    width: 100%;
+  }
+
+  .learn-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  margin-top: 32px;
+}
+
+  .learn-content h1{
+    margin-top: 32px;
+  }
+
+  .learn-content h3{
+    margin-top: 32px;
+  }
+
+  .learn-content a{
+    text-decoration: none;
+    background-color: #383838;
+    color: white;
+    text-align: center;
+    width: 100%;
+
+  }
+}
 /*Main 2 - News Section*/
 
 .main2 .container{
@@ -274,6 +367,72 @@ color: gray;
   padding-top: 18px;
 }
 
+@media only screen and (max-width: 700px){
+.main2 .new2{
+  width: 100%;
+
+}
+
+.new{
+  display: none;
+}
+
+.new2{
+  border-left: 0px;
+  padding: 16px 16px 32px 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+}
+
+.desktopi{
+  display: none;
+}
+
+
+.new2-content{
+  padding: 0px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+
+.first-new2 .second-new .third-new {
+  width: 100%;
+}
+
+.detail{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.detail img {
+  width: 100%;
+  padding: 16px;
+  height: auto;
+}
+
+.new2-content{
+padding: 16px 1px 32px 0px;
+width: 100%;
+}
+
+.first-new2, .second-new2{
+  border: none;
+}
+
+.third-new2{
+  background-color: white;
+}
+
+}
+
+
 /*Main 3 - Learning*/
 
 .courses-mobile{
@@ -353,6 +512,44 @@ padding-bottom: 32px;
  line-height: 0.9rem;
   color: gray;
 }
+
+
+
+@media only screen and (max-width: 700px){
+
+  .learning .container{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+.courses-desktop{
+  display: none;
+}
+
+.courses-mobile{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.courses-mobile a{
+  background-color: #DCDCDC;
+    color: #383838;
+    text-decoration: none;
+    padding: 16px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.courses-mobile a:hover{
+  background-color: #87CEFA;
+  color: white;
+}
+  }
 
 /*Main 4 - Thesis Section*/
 
@@ -458,6 +655,39 @@ padding-bottom: 32px;
   font-size: 18px;
 }
 
+
+@media only screen and (max-width: 700px){
+
+  .headline{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
+  }
+
+
+  .thesis-left h6, p{
+    display: none;
+  }
+
+.thesis-right {
+  display: none;
+}
+
+.thesis {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  margin: 0;
+}
+
+
+.thesis-left {
+  width: 100%;
+}
+  }
+
 /*Footer Section*/
 
 .footer{
@@ -483,4 +713,22 @@ margin-top: 16px;
 
 .nav a:hover{
   color: #87CEFA;
+}
+
+@media only screen and (max-width: 700px){
+  .nav{
+    display: none;
+  }
+
+  .footer{
+  border-top: 1px solid #87CEFA;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  }
+
+  .footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
